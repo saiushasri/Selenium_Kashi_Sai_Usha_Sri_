@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sapient]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke(failed)">
+    <classes>
+      <class name="Day3.MyFirstTestNGtest7">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Day3.MyFirstTestNGtest7 -->
+      <class name="Day3.MyFirstTestNGtest6">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Day3.MyFirstTestNGtest6 -->
+      <class name="Day3.LoginTest">
+        <methods>
+          <include name="createUserandLogout"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validUsernameandPassword"/>
+        </methods>
+      </class> <!-- Day3.LoginTest -->
+      <class name="Day3.AssertionDemo">
+        <methods>
+          <include name="test2"/>
+          <include name="test4"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- Day3.AssertionDemo -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Sapient] -->

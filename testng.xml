@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SapientAllClasses">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AutomateAllClasses.Task7"/>
+      <class name="AutomateAllClasses.BrowserCommands"/>
+      <class name="AutomateAllClasses.GetSocialIcons"/>
+      <class name="AutomateAllClasses.HandleAlert"/>
+      <class name="AutomateAllClasses.DragAndDropExample"/>
+      <class name="AutomateAllClasses.MyFirstTestNGtest7"/>
+      <class name="AutomateAllClasses.AssignmentDay1"/>
+      <class name="AutomateAllClasses.HandleAutoSuggestions"/>
+      <class name="AutomateAllClasses.MyFirstTestNGtest5"/>
+      <class name="AutomateAllClasses.MyFirstTestNGtest4"/>
+      <class name="AutomateAllClasses.MyFirstTestNGtest3"/>
+      <class name="AutomateAllClasses.MyFirstTestNGtest2"/>
+      <class name="AutomateAllClasses.MyFirstTestNGtest"/>
+      <class name="AutomateAllClasses.ActionClassExamples"/>
+      <class name="AutomateAllClasses.LoginTest"/>
+      <class name="AutomateAllClasses.ExplicitWait"/>
+      <class name="AutomateAllClasses.HandleMultipleWindow"/>
+      <class name="AutomateAllClasses.SameTestMultipleTimes"/>
+      <class name="AutomateAllClasses.AssertionDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- SapientAllClasses -->

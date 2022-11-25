@@ -1,0 +1,318 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>45/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 23 15:38:35 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>153 seconds (153348 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest2.createAccount()'><b>createAccount</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest2</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest2@618425b5</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest7.test1()'><b>test1</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest7<br/>
+<a href="#Output-903195729" onClick='toggleBox("Output-903195729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-903195729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-903195729">
+Exectued test case1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest7@7e7be63f</td></tr>
+<tr>
+<td title='AutomateAllClasses.HandleAlert.HandleAlertA()'><b>HandleAlertA</b><br>Test class: AutomateAllClasses.HandleAlert</td>
+<td></td>
+<td>4</td>
+<td>AutomateAllClasses.HandleAlert@2f217633</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest.test1()'><b>test1</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest@58695725</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.LoginTest.invalidUsernameandPassword()'><b>invalidUsernameandPassword</b><br>Test class: AutomateAllClasses.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.LoginTest@25fb8912</td></tr>
+<tr>
+<td title='AutomateAllClasses.AssertionDemo.test5()'><b>test5</b><br>Test class: AutomateAllClasses.AssertionDemo</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.AssertionDemo@957e06</td></tr>
+<tr>
+<td title='AutomateAllClasses.AssertionDemo.test7()'><b>test7</b><br>Test class: AutomateAllClasses.AssertionDemo</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.AssertionDemo@957e06</td></tr>
+<tr>
+<td title='AutomateAllClasses.BrowserCommands.BrowserCommandsA()'><b>BrowserCommandsA</b><br>Test class: AutomateAllClasses.BrowserCommands</td>
+<td></td>
+<td>28</td>
+<td>AutomateAllClasses.BrowserCommands@1da2cb77</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest@58695725</td></tr>
+<tr>
+<td title='AutomateAllClasses.ExplicitWait.ExplicitWaitA()'><b>ExplicitWaitA</b><br>Test class: AutomateAllClasses.ExplicitWait</td>
+<td></td>
+<td>22</td>
+<td>AutomateAllClasses.ExplicitWait@1de5f259</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.LoginTest.invalidPassword()'><b>invalidPassword</b><br>Test class: AutomateAllClasses.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.LoginTest@25fb8912</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest4.logOutApplication()'><b>logOutApplication</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest4</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest4@1af2d44a</td></tr>
+<tr>
+<td title='AutomateAllClasses.AssignmentDay1.AssisgmentDay1auto()'><b>AssisgmentDay1auto</b><br>Test class: AutomateAllClasses.AssignmentDay1</td>
+<td></td>
+<td>33</td>
+<td>AutomateAllClasses.AssignmentDay1@4738a206</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest3.deleteAccount()'><b>deleteAccount</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest3</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest3@18d87d80</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest4.login()'><b>login</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest4</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest4@1af2d44a</td></tr>
+<tr>
+<td title='AutomateAllClasses.Task7.Task7A()'><b>Task7A</b><br>Test class: AutomateAllClasses.Task7</td>
+<td></td>
+<td>13</td>
+<td>AutomateAllClasses.Task7@3bf9ce3e</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest.test3()'><b>test3</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest@58695725</td></tr>
+<tr>
+<td title='AutomateAllClasses.ActionClassExamples.actionClass()'><b>actionClass</b><br>Test class: AutomateAllClasses.ActionClassExamples</td>
+<td></td>
+<td>3</td>
+<td>AutomateAllClasses.ActionClassExamples@543588e6</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest7.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest7</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest7@7e7be63f</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest3.login()'><b>login</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest3<br/>
+<a href="#Output-1370494288" onClick='toggleBox("Output-1370494288", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1370494288" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1370494288">
+Login Done<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest3@18d87d80</td></tr>
+<tr>
+<td title='AutomateAllClasses.SameTestMultipleTimes.test2()'><b>test2</b><br>Test class: AutomateAllClasses.SameTestMultipleTimes<br>Test method: Demo Test</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.SameTestMultipleTimes@31fa1761</td></tr>
+<tr>
+<td title='AutomateAllClasses.HandleAutoSuggestions.HandleAutoSuggestionsA()'><b>HandleAutoSuggestionsA</b><br>Test class: AutomateAllClasses.HandleAutoSuggestions</td>
+<td></td>
+<td>8</td>
+<td>AutomateAllClasses.HandleAutoSuggestions@66d3eec0</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest4.createAccount()'><b>createAccount</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest4</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest4@1af2d44a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest3.logOutApplication()'><b>logOutApplication</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest3</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest3@18d87d80</td></tr>
+<tr>
+<td title='AutomateAllClasses.LoginTest.invalidUsername()'><b>invalidUsername</b><br>Test class: AutomateAllClasses.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.LoginTest@25fb8912</td></tr>
+<tr>
+<td title='AutomateAllClasses.AssertionDemo.test6()'><b>test6</b><br>Test class: AutomateAllClasses.AssertionDemo</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.AssertionDemo@957e06</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.GetSocialIcons.GetSocialIconsA()'><b>GetSocialIconsA</b><br>Test class: AutomateAllClasses.GetSocialIcons</td>
+<td></td>
+<td>3</td>
+<td>AutomateAllClasses.GetSocialIcons@48f278eb</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest2.login()'><b>login</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest2</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest2@618425b5</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest4.deleteAccount()'><b>deleteAccount</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest4</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest4@1af2d44a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest2.deleteAccount()'><b>deleteAccount</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest2</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest2@618425b5</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest3.createAccount()'><b>createAccount</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest3</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest3@18d87d80</td></tr>
+<tr>
+<td title='AutomateAllClasses.HandleMultipleWindow.HandleMultipleWindowA()'><b>HandleMultipleWindowA</b><br>Test class: AutomateAllClasses.HandleMultipleWindow</td>
+<td></td>
+<td>5</td>
+<td>AutomateAllClasses.HandleMultipleWindow@729d991e</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest2.logOutApplication()'><b>logOutApplication</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest2</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest2@618425b5</td></tr>
+<tr>
+<td title='AutomateAllClasses.LoginTest.validUsernameandPassword()'><b>validUsernameandPassword</b><br>Test class: AutomateAllClasses.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>AutomateAllClasses.LoginTest@25fb8912</td></tr>
+<tr>
+<td title='AutomateAllClasses.DragAndDropExample.DragAndDropExampleA()'><b>DragAndDropExampleA</b><br>Test class: AutomateAllClasses.DragAndDropExample</td>
+<td></td>
+<td>8</td>
+<td>AutomateAllClasses.DragAndDropExample@a530d0a</td></tr>
+<tr>
+<td title='AutomateAllClasses.MyFirstTestNGtest5.test2()'><b>test2</b><br>Test class: AutomateAllClasses.MyFirstTestNGtest5</td>
+<td></td>
+<td>0</td>
+<td>AutomateAllClasses.MyFirstTestNGtest5@1e04fa0a</td></tr>
+</table><p>
+</body>
+</html>
